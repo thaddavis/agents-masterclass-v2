@@ -14,9 +14,3 @@ VSCode extensions
     - Install desired VSCode extensions into the new VSCode instance...
         - @ext:ms-python.vscode-pylance etc.
         - @ext:ms-python.python
-
-# Experimenting with attaching to the container via a CLI command
-
-- docker inspect
-
-- 
