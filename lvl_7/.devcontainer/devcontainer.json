@@ -1,0 +1,17 @@
+{
+  "name": "Python Dev Container",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "app",
+  "customizations": {
+    "vscode": {
+        "extensions": [
+            "ms-python.python",
+            "ms-python.vscode-pylance",
+            "ms-python.black-formatter",
+            "ms-python.debugpy"
+        ],
+        "settings": {}
+    }
+  },
+  "workspaceFolder": "/usr/src/app"
+}

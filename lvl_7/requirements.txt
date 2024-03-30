@@ -1,0 +1,6 @@
+urllib3
+watchfiles
+debugpy
+fastapi
+redis
+uvicorn

@@ -3,7 +3,7 @@
 - A computer (`About This Mac` -> macOS Monterey 12.5 / Apple M1 Pro / 16 GB)
 - VSCode (`code -v` -> 1.87.2)
 - Docker (`docker --version` -> 23.0.3)
-- Node.js (lts/hydrogen)
+- Node.js (lts/iron)
     - I'm using: 20.11.1
 
 ## NEW
@@ -12,11 +12,7 @@
 
 ## FOR REFERENCE BUT NOT TOO RELEVANT
 
-- docker build -t agent-api-v6 --target=debugger . 
-- docker images <!-- to find the IMAGE ID -->
-- docker run -p 5678:5678 <IMAGE_ID> ./src/main.py
-- ie: docker run -p 5678:5678 9e7d7edafccf ./watcher.py
-- pip show urllib3
+- code --list-extensions
 
 ## Relevant docs to my troubleshooting process
 

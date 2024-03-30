@@ -1,0 +1,17 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: agent-api-v7
+    command: uvicorn src.main:app --host 0.0.0.0 --port 3000 --reload
+    ports:
+      - 3000:3000
+      - 5678:5678
+    depends_on:
+      - redis
+    volumes:
+      - .:/usr/src/app
+
+  redis:
+    image: redis:alpine
