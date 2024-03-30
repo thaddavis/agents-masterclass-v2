@@ -1,0 +1,9 @@
+services:
+  app:
+    build: .
+    container_name: agent-api-v6
+    command: python ./watcher.py
+    ports:
+      - 5678:5678
+    volumes:
+      - ./src:/usr/src/app/src
