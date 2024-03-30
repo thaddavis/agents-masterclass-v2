@@ -14,3 +14,11 @@ VSCode extensions
     - Install desired VSCode extensions into the new VSCode instance...
         - @ext:ms-python.vscode-pylance etc.
         - @ext:ms-python.python
+
+## CHALLENGE
+
+vscode-remote://attached-container+<CONTAINER_ID><PATH_IN_CONTAINER_TO_OPEN>
+
+ie: code --folder-uri vscode-remote://attached-container+ca95e31618d6a73d3fffbffedad6715d1f9675a3581c449f9ba581e6da8fb9e7/usr/src/app
+
+code --folder-uri vscode-remote://attached-container+ca95e31618d6a73d3fffbffedad6715d1f9675a3581c449f9ba581e6da8fb9e7/usr/src/app

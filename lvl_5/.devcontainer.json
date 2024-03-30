@@ -1,0 +1,19 @@
+{
+  "name": "Python Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+        "extensions": [
+            "ms-python.python",
+            "ms-python.vscode-pylance",
+            "ms-python.black-formatter"
+        ],
+        "settings": {}
+    }
+  },
+  "forwardPorts": [],
+  "workspaceMount": "source=${localWorkspaceFolder},target=/usr/src/app,type=bind,consistency=delegated",
+  "workspaceFolder": "/usr/src/app"
+}
