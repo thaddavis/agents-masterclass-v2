@@ -1,0 +1,9 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: agents-api
+spec:
+  template:
+    spec:
+      containers:
+      - image: us-east1-docker.pkg.dev/agents-418900/agents-api/agents-api:v13

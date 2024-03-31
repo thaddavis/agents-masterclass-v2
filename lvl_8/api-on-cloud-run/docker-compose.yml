@@ -1,0 +1,11 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: "commandlabs/agents-api:v8"
+    command: uvicorn src.main:app --host 0.0.0.0 --port 3000 --reload
+    ports:
+      - 3000:3000
+    volumes:
+      - .:/usr/src/app

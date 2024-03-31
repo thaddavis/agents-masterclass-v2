@@ -104,3 +104,19 @@ Deploy k8s components
 - curl 34.139.47.140
 
 It works! 🎉
+
+
+## DEBUGGING
+
+- kubectl config get-contexts
+- kubectl get context gke_agents-418900_us-east1_helloworld-gke
+- gcloud components install gke-gcloud-auth-plugin
+
+## FINALLY
+
+- gcloud compute addresses create helloworld-ip --global
+- gcloud compute addresses describe helloworld-ip --global
+- kubectl delete -f k8s/deployment.yaml
+
+- kubectl apply -f k8s/deployment.yaml
+- kubectl apply -f k8s/ingress.yaml

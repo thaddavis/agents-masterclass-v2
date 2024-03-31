@@ -1,16 +1,3 @@
-# Overview
-
-Let's quickly ship this to validate this set up is good for shipping...
-
-## Requirements
-
-google-cloud-sdk aka gcloud - https://cloud.google.com/sdk/docs/install (seems to work best with Python 3.11)
-
-GCP Services used
-
-- Cloud Run
-- Artifact Registry
-- Cloud Build
 
 # CREATE A CLOUDRUN SERVICE
 
