@@ -5,6 +5,8 @@ Let's quickly ship this to validate this set up is good for shipping...
 ## Requirements
 
 google-cloud-sdk aka gcloud - https://cloud.google.com/sdk/docs/install (seems to work best with Python 3.11)
+    - gcloud --version
+    - I install to ~/Library/google-cloud-sdk
 
 GCP Services used
 
