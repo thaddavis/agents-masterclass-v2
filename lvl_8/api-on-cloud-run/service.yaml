@@ -6,4 +6,8 @@ spec:
   template:
     spec:
       containers:
-      - image: us-east1-docker.pkg.dev/agents-418900/agents-api/agents-api:v13
+      - image: us-east1-docker.pkg.dev/agents-418900/agents-api/agents-api:v14
+        env:
+        ports:
+        - containerPort: 3000
+      

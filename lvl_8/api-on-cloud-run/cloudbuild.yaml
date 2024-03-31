@@ -1,5 +1,5 @@
 steps:
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['build', '-f', 'Dockerfile.prod', '-t', 'us-east1-docker.pkg.dev/agents-418900/agents-api/agents-api:v13', '.']
+    args: ['build', '-f', 'Dockerfile.prod', '-t', 'us-east1-docker.pkg.dev/agents-418900/agents-api/agents-api:v14', '.']
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['push', 'us-east1-docker.pkg.dev/agents-418900/agents-api/agents-api:v13']
+    args: ['push', 'us-east1-docker.pkg.dev/agents-418900/agents-api/agents-api:v14']
