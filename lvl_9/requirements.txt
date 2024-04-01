@@ -3,4 +3,4 @@ watchfiles
 debugpy
 fastapi
 uvicorn
-dotenv
+python-dotenv
