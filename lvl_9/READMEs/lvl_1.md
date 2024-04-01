@@ -55,7 +55,7 @@ Phase 1
 - docker build -f Dockerfile3.dev -t agents-api .
 - docker run -v $(pwd)/src:/code/src agents-api
 
-### 3d - CLIFFHANGER!!!
+### 3d - Conclusion/CLIFFHANGER!!!
 
 Notice how our editor is still having issues...
 

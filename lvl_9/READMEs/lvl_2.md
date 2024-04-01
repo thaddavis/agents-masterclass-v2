@@ -31,6 +31,7 @@ Phase 2
 - Shift + CMD + P
     - `Dev Containers: Reopen in Container`
 - Notice how all the 3rd party packages are being recognized now in VSCode
+- The 1st time you launch the devcontainer this will take a few minutes but after that your development container will launch quickly
 - python src/main.py
 
 ## 2b
