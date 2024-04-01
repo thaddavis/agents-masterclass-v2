@@ -41,6 +41,13 @@ def read_root():
     - `Plan & Execute Agent`
     - `Agent Swarm`
 
+## 4 - Integrate and LLM API via Langchain
+
+- You could use LLM provided by OpenAI, Google, or Anthropic etc.
+- To mix things up let's give `claude-3-sonnet-20240229` a spin, an LLM provided by Anthropic.
+- add `langchain-anthropic` to requirements.txt
+- pip install -r requirements.txt
+
 ### Reference material
 
 - https://stackoverflow.com/questions/64943693/what-are-the-best-practices-for-structuring-a-fastapi-project#answer-64987404

@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from dotenv import load_dotenv
-from . import completionAgent
+from . import _1_completionAgent
 
 import debugpy
 
@@ -24,4 +24,4 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-app.include_router(completionAgent.router, prefix="/completionAgent")
+app.include_router(_1_completionAgent.router, prefix="/completionAgent")

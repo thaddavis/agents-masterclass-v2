@@ -4,3 +4,4 @@ debugpy
 fastapi
 uvicorn
 python-dotenv
+langchain-anthropic
