@@ -34,6 +34,12 @@ def read_root():
 
 ## 3 - Prepare FastAPI file structure
 
+- scaffold out the 5 agent we will be building
+    - `Completion Agent`
+    - `Streaming Agent`
+    - `RAG Agent`
+    - `Plan & Execute Agent`
+    - `Agent Swarm`
 
 ### Reference material
 
