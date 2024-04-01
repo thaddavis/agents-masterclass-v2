@@ -1,5 +1,14 @@
 # TLDR
-Adding in A.I.
+Phase 1
+
+# Host Requirements
+- A computer (`About This Mac` -> macOS Monterey 12.5 / Apple M1 Pro / 16 GB)
+- Docker (`docker --version` -> 23.0.3)
+- Visual Studio Code (`code -v` -> 1.87.2)
+    - Node.js (lts/iron)
+        - I'm using: 20.11.1
+- gcloud CLI - 470.0.0
+    - Python 3.11
 
 ## 1 - Running w/ `docker` command
 - add `src/main.py` to get things going
@@ -25,7 +34,7 @@ Adding in A.I.
     ```
 
 ### 3a - 1st show the issue
-docker run -v "$PWD":/code python python /code/src/main.py (should ERROR X)
+- docker run -v "$PWD":/code python python /code/src/main.py (should ERROR X)
 
 ### 3a - next show how to download packages and run our code
 - Add `Dockerfile2.dev` ("Select Language Mode" for syntax)
@@ -51,3 +60,5 @@ docker run -v "$PWD":/code python python /code/src/main.py (should ERROR X)
 Notice how our editor is still having issues...
 
 So now let's see how to edit code effectively with containers!
+
+Debugging, Syntax Highlighting, etc...

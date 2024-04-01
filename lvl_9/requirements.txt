@@ -1,2 +1,3 @@
 requests
 watchfiles
+debugpy

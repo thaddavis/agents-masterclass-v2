@@ -1,6 +1,9 @@
 import subprocess
 from watchfiles import watch
 import sys
+import debugpy
+
+debugpy.listen(("127.0.0.1", 5678))
 
 def run_script():
     return subprocess.Popen(["python", "src/main.py"])

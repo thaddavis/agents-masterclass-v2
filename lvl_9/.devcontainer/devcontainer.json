@@ -1,7 +1,7 @@
 {
     "name": "Python Dev Container",
     "build": {
-      "dockerfile": "../Dockerfile"
+      "dockerfile": "../Dockerfile4.dev"
     },
     "customizations": {
       "vscode": {
@@ -18,7 +18,7 @@
       5678
     ],
     "appPort": 5678,
-    "workspaceMount": "source=${localWorkspaceFolder},target=/usr/src/app,type=bind,consistency=delegated",
-    "workspaceFolder": "/usr/src/app"
+    "workspaceMount": "source=${localWorkspaceFolder},target=/code,type=bind,consistency=delegated",
+    "workspaceFolder": "/code"
   }
   
