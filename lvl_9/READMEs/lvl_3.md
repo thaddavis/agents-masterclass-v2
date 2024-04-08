@@ -27,7 +27,7 @@ app = FastAPI()
 def read_root():
     return {"Hello": "World"}
 ```
-- add `Dockerfile5.dev`
+- add `Dockerfile.dev`
 - add `fastapi, uvicorn, & python-dotenv` to requirements.txt
 - `uvicorn src.main:app --host 0.0.0.0 --port 4000 --reload`
 - curl localhost:3000

@@ -24,4 +24,4 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-app.include_router(_1_completionAgent.router, prefix="/completionAgent")
+app.include_router(_1_completionAgent.router, prefix="/completion-agent")
