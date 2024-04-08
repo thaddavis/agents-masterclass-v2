@@ -10,8 +10,10 @@ class ResponseBody(BaseModel):
 
 @router.post("/completion")
 def prompt(prompt: Prompt) -> ResponseBody:
+    model: str = "claude-3-sonnet-20240229"
+
     llm = ChatAnthropic(
-        model="claude-3-sonnet-20240229", temperature=0.2, max_tokens=1024
+        model=model, temperature=0.2, max_tokens=1024
     )
 
     completion = llm.invoke(prompt.content)
