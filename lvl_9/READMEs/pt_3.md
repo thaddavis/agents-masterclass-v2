@@ -1,5 +1,5 @@
 # TLDR
-Phase 3
+Part 3
 
 # Host Requirements
 - A computer (`About This Mac` -> macOS Monterey 12.5 / Apple M1 Pro / 16 GB)
@@ -10,7 +10,9 @@ Phase 3
 - gcloud CLI - 470.0.0
     - Python 3.11
 
-## 1 - 
+## 1 - Open the project in a `devcontainer`
+- Shift + CMD + P
+    - `Shell Command: Install 'code command in PATH`
 
 ## 2 - Let's begin building the FastAPI
 - update `src/main.py`
@@ -33,7 +35,6 @@ def read_root():
 - curl localhost:3000
 
 ## 3 - Prepare FastAPI file structure
-
 - scaffold out the 5 agent we will be building
     - `Completion Agent`
     - `Streaming Agent`
@@ -42,14 +43,12 @@ def read_root():
     - `Agent Swarm`
 
 ## 4 - Integrate and LLM API via Langchain
-
 - You could use LLM provided by OpenAI, Google, or Anthropic etc.
 - To mix things up let's give `claude-3-sonnet-20240229` a spin, an LLM provided by Anthropic.
 - add `langchain-anthropic` to requirements.txt
 - pip install -r requirements.txt
 
 ## 5 - Integrate LangSmith
-
 - Add the env vars for LangSmith
 - Observe the `traces` and point out the following details...
     - Latency
@@ -64,7 +63,6 @@ def read_root():
 
 
 ### Reference material
-
 - https://stackoverflow.com/questions/64943693/what-are-the-best-practices-for-structuring-a-fastapi-project#answer-64987404
 - https://github.com/thaddavis/agents-masterclass/blob/main/api/src/main.py
 - https://www.langchain.com/langsmith

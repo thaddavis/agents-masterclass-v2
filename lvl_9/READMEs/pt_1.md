@@ -1,5 +1,5 @@
 # TLDR
-Phase 1
+Part 1
 
 # Host Requirements
 - A computer (`About This Mac` -> macOS Monterey 12.5 / Apple M1 Pro / 16 GB)
