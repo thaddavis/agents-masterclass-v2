@@ -5,3 +5,6 @@ fastapi
 uvicorn
 python-dotenv
 langchain-anthropic
+langsmith
+langchain
+python-dotenv

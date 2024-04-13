@@ -12,3 +12,4 @@ Part 4
 - https://www.vidavolta.io/streaming-with-fastapi/
 - https://www.loginradius.com/blog/engineering/guest-post/http-streaming-with-nodejs-and-fetch-api/
 - https://python.langchain.com/docs/expression_language/streaming/#using-stream-events
+- https://docs.smith.langchain.com/tracing/faq/langchain_specific_guides#tracing-without-environment-variables
