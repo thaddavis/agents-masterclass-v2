@@ -18,7 +18,6 @@ Part 5 - Including Memory
 - Populate `_3_streamingWithMemoryAgent/router.py` with code
 - add the following pip packages
     - redis
-    - 
 
 ## Reference links
 
