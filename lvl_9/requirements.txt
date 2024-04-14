@@ -9,3 +9,4 @@ langsmith
 langchain
 python-dotenv
 redis
+chromadb

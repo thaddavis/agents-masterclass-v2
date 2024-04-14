@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 from . import _1_completionAgent
 from . import _2_streamingAgent
 from . import _3_streamingWithMemoryAgent
+from . import _4_ragAgent
 
 import debugpy
 
@@ -29,3 +30,4 @@ app.add_middleware(
 app.include_router(_1_completionAgent.router, prefix="/completion-agent")
 app.include_router(_2_streamingAgent.router, prefix="/streaming-agent")
 app.include_router(_3_streamingWithMemoryAgent.router, prefix="/streaming-with-memory-agent")
+app.include_router(_4_ragAgent.router, prefix="/rag-agent")

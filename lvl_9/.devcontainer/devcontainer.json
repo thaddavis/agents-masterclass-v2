@@ -20,6 +20,7 @@
     ],
     "appPort": 5678,
     "workspaceMount": "source=${localWorkspaceFolder},target=/code,type=bind,consistency=delegated",
-    "workspaceFolder": "/code"
+    "workspaceFolder": "/code",
+    "runArgs": [ "--network=agent-network" ]
   }
   
