@@ -8,3 +8,4 @@ langchain-anthropic
 langsmith
 langchain
 python-dotenv
+redis
