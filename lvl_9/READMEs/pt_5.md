@@ -21,3 +21,5 @@ Part 5 - Including Memory
 - https://python.langchain.com/docs/use_cases/tool_use/agents/
 - https://python.langchain.com/docs/integrations/memory/redis_chat_message_history/
 - https://python.langchain.com/docs/modules/model_io/prompts/quick_start/
+- https://python.langchain.com/docs/modules/agents/how_to/streaming/
+- https://python.langchain.com/docs/modules/memory/ (great photo)

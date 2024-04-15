@@ -1,7 +1,7 @@
 # TLDR
 Part 6 - R.A.G. Agents (w/ Chroma and OpenAI)
 
-## Install & Run ChromaDB
+## 1 - Install & Run ChromaDB
 
 - apt-get install build-essential
 - pip install chromadb
@@ -13,7 +13,7 @@ Part 6 - R.A.G. Agents (w/ Chroma and OpenAI)
     - make sure `agent-network` is created ie: `docker network create -d bridge agent-network`
 - docker inspect --format='{{json .NetworkSettings.Networks}}' chromadb | jq
 
-## Play with ChromaDB
+## 2 - Play with ChromaDB
 
 - python scripts/chromadb/playground.py
 
@@ -32,6 +32,10 @@ Part 6 - R.A.G. Agents (w/ Chroma and OpenAI)
     - `python scripts/chromadb/count_records_in_collection.py`
     - `python scripts/chromadb/add_csv_records.py `
 1. Now! We build out the application
+
+### 3 - Conclusion/CLIFFHANGER!!!
+
+R.A.G. agents are used for knowledge base interaction, synthesizing FAQ's and can be a good solution for "VERY" long term memory retrieval in certain cases. Let's now move on to take a look at what is probably the most popular type of agent used today - `ReAct Agents`
 
 ## Reference links
 - https://python.langchain.com/docs/modules/data_connection/vectorstores/ (great photo)

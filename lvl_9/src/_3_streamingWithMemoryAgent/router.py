@@ -33,6 +33,7 @@ async def generator(sessionId: str, prompt: str):
     llm = ChatAnthropic(model_name=model, temperature=0.2, max_tokens=1024)
 
     history = RedisChatMessageHistory(sessionId, url=os.getenv("REDIS_URL"))
+    
     print('history.message', history.messages)
 
     promptTemplate = ChatPromptTemplate.from_messages(

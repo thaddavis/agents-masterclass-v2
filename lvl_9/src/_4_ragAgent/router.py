@@ -43,7 +43,7 @@ async def generator(sessionId: str, prompt: str):
     default_ef = embedding_functions.DefaultEmbeddingFunction()
     kb_collection = chroma_client.get_collection(name="rag_agent", embedding_function=default_ef)
 
-    query_vector: List[List[float]] = default_ef(["Tell me about Tad"])
+    query_vector: List[List[float]] = default_ef([prompt])
 
     results = kb_collection.query(
         query_embeddings=[query_vector[0]],
